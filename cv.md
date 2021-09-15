@@ -19,6 +19,7 @@ As a front-end and web-developer I see my ongoing journey as following: first, g
 # Code example
 
 ```
+
 function disemvowel(str) {
     let vowel = ["a", "e", "i", "o", "u"]
     let ArrayOfStr = str.split('')
@@ -29,6 +30,7 @@ function disemvowel(str) {
     str = filteredArray.join('')
     return str;
 }
+
 ```
 
 ---
