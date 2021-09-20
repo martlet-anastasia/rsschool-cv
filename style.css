@@ -104,6 +104,10 @@ body {
     margin-bottom: 50px;
 }
 
+.cv__language {
+    padding-bottom: 50px;
+}
+
 .cv__subtitle {
     margin-bottom: 15px;
     font-size: 16px;
@@ -195,4 +199,31 @@ pre code {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1300px) {
+    .cv__main {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cv__header,
+    .cv__footer,
+    .cv__footer_info {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .rs_school_img {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .cv__photo {
+        align-self: center;
+        width: 100px;
+        background-position: center;
+    }
 }
